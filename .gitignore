@@ -5,18 +5,35 @@
 *.out
 *.so
 *.a
+*.dll
+*.lib
 
-# Debug files
+# Debug and symbol files
 *.dSYM/
 *.suo
 *.pdb
+*.idb
+*.ilk
+*.ipch
 
-# Build directories
+# Build directories and IDE caches
 build/
 bin/
+x64/
+x86/
+Debug/
+Release/
+.vs/
 
 # Editor and OS
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
+ehthumbs.db
+desktop.ini
+*.swp
+*~
+*.bak
+*.tmp
+*.log
