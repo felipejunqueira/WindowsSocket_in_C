@@ -1,0 +1,22 @@
+# Binaries and object files
+*.o
+*.obj
+*.exe
+*.out
+*.so
+*.a
+
+# Debug files
+*.dSYM/
+*.suo
+*.pdb
+
+# Build directories
+build/
+bin/
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
